@@ -10,7 +10,7 @@ while(low<=high):
       mid = int((high+low)/2)
     
       if(list[mid] == key):
-        print("Element found at", mid)
+        print("Element found ", mid)
         break
         
       elif(list[mid] < key):
